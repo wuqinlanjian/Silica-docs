@@ -1,0 +1,118 @@
+site_name: Silica 文档
+site_description: 面向 LeviLamina 基岩版模组开发者的嵌入式声明式 UI 框架
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: grey
+      accent: grey
+      toggle:
+        icon: material/weather-night
+        name: 切换到深色
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: grey
+      accent: grey
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到浅色
+
+extra_css:
+  - stylesheets/silica.css
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: zh
+          default: true
+          name: 简体中文
+          build: true
+        - locale: en
+          name: English
+          build: true
+          site_name: Silica Documentation
+          site_description: An embedded declarative UI framework for LeviLamina Bedrock Edition mod developers
+          theme:
+            palette:
+              - media: "(prefers-color-scheme: light)"
+                scheme: default
+                primary: grey
+                accent: grey
+                toggle:
+                  icon: material/weather-night
+                  name: Switch to dark mode
+              - media: "(prefers-color-scheme: dark)"
+                scheme: slate
+                primary: grey
+                accent: grey
+                toggle:
+                  icon: material/weather-sunny
+                  name: Switch to light mode
+          nav_translations:
+            首页: Home
+            项目总览: Overview
+            快速开始: Getting Started
+            DSL 教程: DSL Tutorial
+            教程导读: Tutorial Guide
+            基础语法: Basic Syntax
+            布局: Layout
+            常用控件: Common Widgets
+            响应式绑定: Reactive Bindings
+            事件脚本: Event Scripts
+            组件: Components
+            样式: Styles
+            动画与过渡: Animations and Transitions
+            列表: Lists
+            图片: Images
+            控件参考: Widget Reference
+            C++ 集成: C++ Integration
+            常见问题: Troubleshooting
+            示例集锦: Examples
+
+nav:
+  - 首页: index.md
+  - 项目总览: overview.md
+  - 快速开始: getting-started.md
+  - DSL 教程:
+      - 教程导读: dsl/index.md
+      - 基础语法: dsl/basics.md
+      - 布局: dsl/layout.md
+      - 常用控件: dsl/widgets.md
+      - 响应式绑定: dsl/bindings.md
+      - 事件脚本: dsl/scripts.md
+      - 组件: dsl/components.md
+      - 样式: dsl/styles.md
+      - 动画与过渡: dsl/animations.md
+      - 列表: dsl/lists.md
+      - 图片: dsl/images.md
+  - 控件参考: widgets.md
+  - C++ 集成: cpp-guide.md
+  - 常见问题: troubleshooting.md
+  - 示例集锦: examples.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.tabbed:
+      alternate_style: true

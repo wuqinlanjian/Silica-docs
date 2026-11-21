@@ -1,0 +1,57 @@
+/* 硅石灰：中性、低饱和的石英灰，浅色与深色共用同一套色阶。 */
+
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #747B81;
+  --md-primary-fg-color--light: #8F969C;
+  --md-primary-fg-color--dark: #5A6065;
+  --md-accent-fg-color: #5F666C;
+  --md-typeset-a-color: #5F666C;
+  --md-default-fg-color: #2C3135;
+  --md-default-fg-color--light: #5C6369;
+  --md-default-fg-color--lighter: #8A9197;
+  --md-default-bg-color: #FBFAF8;
+  --md-code-bg-color: #F1F0ED;
+  --md-footer-bg-color: #2F3337;
+  --md-footer-bg-color--dark: #262A2E;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #7C8389;
+  --md-primary-fg-color--light: #9AA1A7;
+  --md-primary-fg-color--dark: #5C6267;
+  --md-accent-fg-color: #C3CACF;
+  --md-typeset-a-color: #B8C0C6;
+  --md-default-fg-color: #D9DDE0;
+  --md-default-fg-color--light: #A9B1B7;
+  --md-default-fg-color--lighter: #7E868C;
+  --md-default-bg-color: #1D2023;
+  --md-code-bg-color: #24282C;
+  --md-footer-bg-color: #171A1D;
+  --md-footer-bg-color--dark: #121416;
+}
+
+/* 顶栏使用略深一档的石英灰，避免与正文卡片混在一起。 */
+.md-header {
+  background-color: #6C7379;
+}
+
+[data-md-color-scheme="slate"] .md-header {
+  background-color: #53595E;
+}
+
+.md-tabs {
+  background-color: #646B71;
+}
+
+[data-md-color-scheme="slate"] .md-tabs {
+  background-color: #4B5156;
+}
+
+/* 搜索框跟随石英灰，不继承蓝紫默认值。 */
+[data-md-color-scheme="slate"] .md-search__form {
+  background-color: #3A4045;
+}
+
+[data-md-color-scheme="slate"] .md-search__form:hover {
+  background-color: #454B51;
+}

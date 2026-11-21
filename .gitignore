@@ -1,0 +1,13 @@
+# MkDocs output
+/site/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors
+.vs/
+.vscode/
+.idea/
