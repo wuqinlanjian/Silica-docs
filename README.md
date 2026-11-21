@@ -4,6 +4,8 @@
 
 **Silica** 的双语文档站点，使用 MkDocs 与 Material 主题构建。Silica 是面向 LeviLamina Minecraft 基岩版客户端模组的嵌入式声明式 UI 框架，源码在 [Silica](https://github.com/wuqinlanjian/Silica) 仓库。
 
+在线访问：<https://silica.feather.qzz.io/>（中文）· <https://silica.feather.qzz.io/en/>（English）。
+
 中文站点位于 `/`，英文站点位于 `/en/`；页面语言选择器可以在当前页面直接切换，无需回到首页。
 
 ## 内容
@@ -37,7 +39,7 @@ python -m mkdocs build
 
 ## 部署
 
-本站使用 Cloudflare Pages 发布，在控制台按以下配置连接本仓库：
+本站发布在 <https://silica.feather.qzz.io/>（中文）与 <https://silica.feather.qzz.io/en/>（英文），使用 Cloudflare Pages 构建，在控制台按以下配置连接本仓库：
 
 | 配置项 | 值 |
 | --- | --- |

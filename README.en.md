@@ -4,6 +4,8 @@
 
 Bilingual documentation site for **Silica**, an embedded declarative UI framework for LeviLamina Minecraft Bedrock Edition client mods. The framework source lives in the [Silica](https://github.com/wuqinlanjian/Silica) repository.
 
+Live site: <https://silica.feather.qzz.io/> (Chinese) · <https://silica.feather.qzz.io/en/> (English).
+
 The site is built with MkDocs and the Material theme. Chinese is served at `/` and English under `/en/`; the language selector in the header switches the current page directly.
 
 ## Contents
@@ -37,7 +39,7 @@ The output goes to `site/`: the Chinese site at the root and the English site un
 
 ## Deployment
 
-This site is published with Cloudflare Pages. Connect this repository in the dashboard with:
+The site is published at <https://silica.feather.qzz.io/> (Chinese) and <https://silica.feather.qzz.io/en/> (English) with Cloudflare Pages. Connect this repository in the dashboard with:
 
 | Setting | Value |
 | --- | --- |

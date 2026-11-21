@@ -1,5 +1,6 @@
 site_name: Silica 文档
 site_description: 面向 LeviLamina 基岩版模组开发者的嵌入式声明式 UI 框架
+site_url: https://silica.feather.qzz.io/
 docs_dir: docs
 site_dir: site
 
